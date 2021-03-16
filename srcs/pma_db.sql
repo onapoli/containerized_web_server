@@ -1,0 +1,3 @@
+GRANT ALL PRIVILEGES ON phpmyadmin.* TO 'pma'@'localhost' IDENTIFIED BY 'pmapass';
+FLUSH PRIVILEGES;
+QUIT
