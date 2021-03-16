@@ -1,10 +1,14 @@
 # containerized_web_server
 A Docker image for building a server that runs multiple services.
 
+
+
 ### PROJECT OBJECTIVE
 
 Create a Docker image for running a multiservice container with an Nginx
 web server, MySQL (MariaDB), PhpMyAdmin, and WordPress. 
+
+
 
 ### CONVENIENCE SCRIPTS GUIDE
 
@@ -20,6 +24,7 @@ root.
 There are ways to execute Docker commands without `sudo`, but the scripts were
 written to be executed in as much environments as possible, so this
 functionality was not expected.
+
 
 1. BUILD IMAGE AND RUN CONTAINER
 
@@ -37,15 +42,19 @@ functionality was not expected.
 
 `./interactive_terminal.sh` OR `sh interactive_terminal.sh`
 
+
 2. STOP RUNNING CONTAINER
 
 `./stop_container.sh` OR `sh stop_container.sh`
+
 
 3. REMOVE UNUSED OR USELESS IMAGE DATA (USEFULL WHEN MODIFYING IMAGE)
 
 `./remove_imgs_cnts.sh` OR `sh remove_imgs_cnts.sh`
 
-DOCKER COMMAND INDEX
+
+
+### DOCKER COMMAND miniINDEX
 
 LIST IMAGES
 
