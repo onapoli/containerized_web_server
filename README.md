@@ -1,14 +1,14 @@
 # containerized_web_server
 A Docker image for building a server that runs multiple services.
 
-
+<br/>
 
 ### PROJECT OBJECTIVE
 
 Create a Docker image for running a multiservice container with an Nginx
 web server, MySQL (MariaDB), PhpMyAdmin, and WordPress. 
 
-
+<br/>
 
 ### CONVENIENCE SCRIPTS GUIDE
 
@@ -52,7 +52,7 @@ functionality was not expected.
 
 `./remove_imgs_cnts.sh` OR `sh remove_imgs_cnts.sh`
 
-
+<br/>
 
 ### DOCKER COMMAND miniINDEX
 
